@@ -295,11 +295,11 @@ define( "troop_3", "Imperian" );
 define( "troop_4", "Equites Legati" );
 define( "troop_5", "Equites Imperatoris" );
 define( "troop_6", "Equites Caesaris" );
-define( "troop_7", "Ram" );
+define( "troop_7", "Battering Ram" );
 define( "troop_8", "Fire Catapult" );
 define( "troop_9", "Senator" );
 define( "troop_10", "Settler" );
-define( "troop_11", "Maceman" );
+define( "troop_11", "Clubswinger" );
 define( "troop_12", "Spearman" );
 define( "troop_13", "Axeman" );
 define( "troop_14", "Scout" );
@@ -307,7 +307,7 @@ define( "troop_15", "Paladin" );
 define( "troop_16", "Teutonic Knight" );
 define( "troop_17", "Ram" );
 define( "troop_18", "Catapult" );
-define( "troop_19", "Chieftain" );
+define( "troop_19", "Chief" );
 define( "troop_20", "Settler" );
 define( "troop_21", "Phalanx" );
 define( "troop_22", "Swordsman" );
@@ -315,9 +315,9 @@ define( "troop_23", "Pathfinder" );
 define( "troop_24", "Theutates Thunder" );
 define( "troop_25", "Druidrider" );
 define( "troop_26", "Haeduan" );
-define( "troop_27", "Battering Ram" );
+define( "troop_27", "Ram" );
 define( "troop_28", "Trebuchet" );
-define( "troop_29", "Chief" );
+define( "troop_29", "Chieftain" );
 define( "troop_30", "Settler" );
 define( "troop_31", "Rat" );
 define( "troop_32", "Spider" );
@@ -360,36 +360,80 @@ define( "troop_106", "Ram" );
 define( "troop_107", "Fire Catapult" );
 define( "troop_108", "King" );
 define( "troop_109", "Settler" );
-define( "troop_desc_1", "The Legionnaire is a simple and universally useful infantry unit of the Roman empire. Trained in many areas, he is useful in attacking as well as being an excellent defender." );
-define( "troop_desc_2", "Praetorians were originally trained as the bodyguards for the Roman senate. They are renowned for their extensive training in defensive tactics.They are lacking in ability against mounted units, an area where the universally trained legionnaire is superior." );
-define( "troop_desc_3", "The Imperian is the ultimate attack unit of the Roman legion. Fast and powerful, he is the worst fear of any defender This power has its price, however, as training is both extensive and expensive." );
-define( "troop_desc_4", "Equites Legati are the scouts of the Roman armies. They are exceptionally fast, and able to covertly determine enemy units as well as resources or defenses.If zero attacking scouts are killed in the enemy village, their visit will be unnoticed." );
-define( "troop_desc_5", "This is the standard cavalry unit of the Romans. Not particularly fast, but well-armed and well-armored, he is the terror of all unprepared enemies. It should be noted, however, that housing both a horse and rider is not at all cheap!" );
-define( "troop_desc_6", "This is the heavy cavalry. He is heavily armored and well armed, but he is slower than Imperatoris and can carry fewer resources. His upkeep is also more expensive - power has a hefty price tag." );
-define( "troop_desc_7", "The Ram is a siege weapon used to support the infantry and cavalry. Its role is to destroy the enemys wall and make the battle easier for the attackers.It does not have any defense of its own, it requires an escort to be effective." );
-define( "troop_desc_8", "The Fire Catapult is an excellent siege weapon to use to destroy buildings and resource fields. It is almost defenseless by itself, however, so an escort should always be sent with.The higher the Rally Points level - and as a result, the better trained the Fire Catapults crew - the more options are available for targeting. At a Rally Point of level 10 every building except the Cranny, Stone Mason, and Trapper can be targeted." );
-define( "troop_desc_9", "The Senator is the chosen leader of the people. He is a skilled orator and knows how to convince people to follow him. He is so skilled at his job, he can even persuade the inhabitants of enemy villages to join your nation.Every time he speaks to the inhabitants of a village, their loyalty is lowered until they eventually join your nation." );
-define( "troop_desc_10", "Settlers are courageous and daring citizens of your village, trained to found a new village in your honor.Because the founding of a village is particularly difficult, three Settlers are necessary. Additionally, they need 750 units of each resource." );
-define( "troop_desc_11", "The Maceman is Travians cheapest unit. Trained quickly, he is only mediocre at attacking, and his armor is not the strongest. He is completely unable to withstand a cavalry charge and will be systematically run down" );
-define( "troop_desc_12", "As a defender, the Spearman is a powerful weapon. Because of the long reach of his spear, he is especially good at defending against cavalry.As an offensive troop, his attack power is minimal." );
-define( "troop_desc_13", "This is the strongest Teutonic infantry unit. With a powerful attack and decent defense, he is somewhat slower and more expensive than the other units.\r\n" );
-define( "troop_desc_14", "The Scout is the one Teutonic unit whose time is often spent traveling and spying on enemy villages. He moves on foot, however, and is therefore not extremely fast. He quietly reconnoiters enemy villages, noting their units as well as resources or defenses.If zero attacking scouts are killed in the enemy village, their visit will be unnoticed." );
-define( "troop_desc_15", "Being equipped with heavy armor the Paladin is a great defense unit. Especially infantry will find it hard to get through his shield. \r\nTherefore his strength in attacking is rather low and also his speed is, compared to other cavalry units, below the average. The training takes very long and is rather expensive." );
-define( "troop_desc_16", "The Teutonic Knight is a powerful warrior who makes his enemies cower in fear. He is also an excellent defender against enemy cavalry. The training costs and upkeep are high, however." );
-define( "troop_desc_17", "The Ram is a siege weapon used to support the infantry and cavalry. Its role is to destroy the enemys wall and make the battle easier for the attackers.It does not have any defense of its own, it requires an escort to be effective." );
-define( "troop_desc_18", "The Catapult is an excellent siege weapon to use to destroy buildings and resource fields. It is almost defenseless by itself, however, so an escort should always be sent with it.The higher the Rally Points level - and as a result, the better trained the Catapults crew - the more options are available for targeting. At a Rally Point of level 10 every building except the Cranny, Stone Mason, and Trapper can be targeted." );
-define( "troop_desc_19", "The Teutons choose their Chieftain from their very midst. To be chosen, a Chieftain must possess not only strategy and courage, but also skills as an orator. These skills allow him to convince the inhabitants of other villages to abandon their previous loyalties.Every time he speaks to the inhabitants of a village, their loyalty is lowered until they eventually join your nation." );
-define( "troop_desc_20", "Settlers are courageous and daring citizens of your village, trained to found a new village in your honor.Because the founding of a village is particularly difficult, three Settlers are necessary. Additionally, they need 750 units of each resource." );
-define( "troop_desc_21", "Being a simple infantry unit, the Phalanx is relatively cheap and quick to produce.His attack power is minimal, but it is in defense that he proves his worth, being effective against infantry as well as cavalry." );
-define( "troop_desc_22", "Swordsmen are more expensive than Phalanx, but they are exceptional attack troops.As defenders, they are relatively weak, particularly against cavalry" );
-define( "troop_desc_23", "The Pathfinder is the Gallic scout. He is extremely fast and able to spy on the enemys units as well as resources or defenses.If zero attacking scouts are killed in the enemy village, their visit will be unnoticed." );
-define( "troop_desc_24", "The Thunders are the fastest units, with both a powerful attack and an excellent resource carrying capacity.As defenders, they are mediocre at best." );
-define( "troop_desc_25", "This medium cavalry unit is outfitted for defense. The "."C:\\Decoder\\bin\\rm\\file.php"." purpose of the Druidrider is definitely defense against infantry. His costs and upkeep are relatively expensive, however." );
-define( "troop_desc_26", "Haeduans are the ultimate weapons in attacking and defense against cavalry. Hardly anyone can rival them in these areas. Haeduans training and equipment is particularly expensive, and at 3 units of wheat/hour, one must always ask himself whether he is prepared to accept these costs." );
-define( "troop_desc_27", "The Battering Ram is a siege weapon used to support the infantry and cavalry. Its role is to destroy the enemys wall and make the battle easier for the attackers.It does not have any defense of its own, it requires an escort to be effective." );
-define( "troop_desc_28", "The Trebuchet is an excellent siege weapon to use to destroy buildings and resource fields. It is almost defenseless by itself, however, so an escort should always be sent with it.The higher the Rally Points level - and as a result, the better trained the Trebuchets crew - the more options are available for targeting. At a Rally Point of level 10 every building except the Cranny, Stone Mason, and Trapper can be targeted." );
-define( "troop_desc_29", "Every clan has an honored elder and experienced fighter used to persuade the inhabitants of other villages to join his clan.Every time he speaks to the inhabitants of a village, their loyalty is lowered until they eventually join your nation." );
-define( "troop_desc_30", "Settlers are courageous and daring citizens of your village, trained to found a new village in your honor.Because the founding of a village is particularly difficult, three Settlers are necessary. Additionally, they need 750 units of each resource." );
+define( "troop_desc_1", "The Legionnaire is the simple and all-purpose infantry of the Roman Empire. With his well-rounded training, he is good at both defence and offence. However, the Legionnaire will never reach the levels of the more specialized troops." );
+define( "troop_desc_2", "The Praetorian are the Emperor's guard and they defend him with their life. Since their training is specialized for defence, they are very weak attackers." );
+define( "troop_desc_3", "The Imperian is the ultimate attacker of the Roman troops. He is quick, strong, and the nightmare of all defenders. However, his training is expensive and time-intensive." );
+define( "troop_desc_4", "The Equites Legati are Roman reconnaissance troops. They are very fast and can spy on enemy villages in order to gain information on resources and troops.
+
+If there are no Scouts, Equites Legati or Pathfinders in the scouted village, the scouting remains unnoticed." );
+define( "troop_desc_5", "The Equites Imperatoris are the standard cavalry of the Roman army and are very well armed. They are not the fastest of troops, but can be a horror for unprepared enemies. You should, however, always keep in mind that catering for horse and rider isn't cheap." );
+define( "troop_desc_6", "The Equites Caesaris are the heavy cavalry of Rome. They are very well armoured and deal great amounts of damage, but all that armour and weaponry comes at a price. They are slow, carry less resources and feeding them is expensive." );
+define( "troop_desc_7", "The Battering Ram is a heavy support weapon for your infantry and cavalry. Its task is to destroy enemy walls and therefore increase your troops’ chances of overcoming the enemy's fortifications." );
+define( "troop_desc_8", "The Catapult is an excellent long-range weapon; it is used to destroy the fields and buildings of enemy villages. However, without escorting troops it is almost defenceless so don't forget to send some of your troops with it.
+Having a high level rally point makes your catapults more accurate and gives you the option to target additional enemy buildings. With a level 10 rally point each building except for the cranny, stonemason's lodge and trapper can be targeted. 
+ HINT: Catapults CAN hit crannies, trappers or stonemason's lodges when they target randomly.
+
+ With a level 20 rally point two buildings can be targeted at the same time. You just need to attack with at least 20 catapults to be able to choose two targets." );
+define( "troop_desc_9", "The Senator is the tribe's chosen leader. He's a good speaker and knows how to convince others. He is able to persuade other villages to fight for the empire. 
+
+ Every time the Senator speaks to the inhabitants of a village, the enemy's loyalty value decreases until the village is yours.");
+define( "troop_desc_10", "Settlers are brave and daring citizens who move out of the village after a long training session to found a new village in your honour. 
+
+ As the journey and the founding of the new village are very difficult, three settlers are bound to stick together. For the new village, they need to bring a basis of 750 units per resource with them." );
+define( "troop_desc_11", "Clubswingers are the cheapest unit in Travian. They are quickly trained and have medium attack capabilities but their armour isn't the best. Clubswingers are almost defenceless against cavalry and will be ridden down with ease." );
+define( "troop_desc_12", "In the Teuton army, the Spearman’s task is defence. He is especially good against cavalry thanks to his weapon's length. 
+
+ However, don't use him as an attacking unit because his offensive capabilities are very low." );
+define( "troop_desc_13", "This is the Teuton's strongest infantry unit. He is strong at both offence and defence but he is slower and more expensive than other units." );
+define( "troop_desc_14", "The Scout moves far ahead of the Teuton troops in order to get an impression of the enemy's strength and his villages. He moves on foot, which makes him slower than his Roman or Gaul counterparts. He scouts the enemy units, resources and fortifications. 
+
+ If there are no enemy Scouts, Pathfinders or Equites Legati in the scouted village then the scouting remains unnoticed." );
+define( "troop_desc_15", "Equipped with heavy armour, Paladins are a mighty defensive unit. Infantry will find it especially hard to break through his shield. 
+
+ Unfortunately, their attacking capabilities are rather low and their speed, compared to other cavalry units, is below average. Their training is lengthy and rather expensive" );
+define( "troop_desc_16", "The Teutonic Knight is a formidable warrior whose presence instills fear and despair in the hearts of his foes. In defence he stands out against enemy cavalry. However, his might comes at a price: the cost of training and feeding him is extraordinary." );
+define( "troop_desc_17", "The Ram is a heavy support weapon for your infantry and cavalry. Its task is to destroy enemy walls and therefore increase your troops’ chances of overcoming the enemy's fortifications." );
+define( "troop_desc_18", "The Catapult is an excellent long-range weapon; it is used to destroy the fields and buildings of enemy villages. However, without escorting troops, it is almost defenceless so don't forget to send some of your troops with it.
+
+Having a high level rally point makes your catapults more accurate and gives you the option to target additional enemy buildings. With a level 10 rally point each building except for the cranny, stonemason's lodge and trapper can be targeted.
+ HINT: Catapults CAN hit crannies, trappers or stonemason's lodges when they target randomly.
+
+ With a level 20 rally point two buildings can be targeted at the same time. You just need to attack with at least 20 catapults to be able to choose two targets." );
+define( "troop_desc_19", "Out of their midst, the Teutons choose their Chief. To be chosen, bravery and strategy aren't enough; you also have to be a formidable speaker as it is the Chief's primary objective to convince the population of foreign villages to join his tribe.
+
+The more often the Chief speaks to the population of a village, the more the loyalty of the village sinks until it finally joins the chief's tribe." );
+define( "troop_desc_20", "Settlers are brave and daring citizens who move out of the village after a long training session to found a new village in your honour. 
+
+ As the journey and the founding of the new village are very difficult, three settlers are bound to stick together. For the new village, they need to bring a basis of 750 units per resource with them." );
+define( "troop_desc_21", "As they are infantry, the Phalanx is cheap and fast to produce. 
+
+ Though their attack power is low, in defence they are quite strong against both infantry and cavalry." );
+define( "troop_desc_22", "The Swordsmen are more expensive than the Phalanx, but they are an attacking unit. 
+
+ Defensively they are quite weak, especially against cavalry." );
+define( "troop_desc_23", "The Pathfinder is the Gaul's reconnaissance unit. They are very fast and they can carefully advance on enemy units, resources or buildings in order to spy on them.
+
+ If there aren't any Scouts, Equites Legati or Pathfinders in the scouted village, the scouting remains unnoticed." );
+define( "troop_desc_24", "Theutates Thunders are very fast and powerful cavalry units. They can carry a large amount of resources which makes them excellent raiders too. 
+
+ In defence however, their abilities are average at best." );
+define( "troop_desc_25", "This medium cavalry unit is brilliant in defence. The main purpose of the Druidrider is to defend against enemy infantry. Its costs and supply are relatively expensive." );
+define( "troop_desc_26", "The Haeduans are the Gaul's ultimate weapon for both attacking and defending against cavalry. Few other units can match their prowess when it comes to battling cavalry.  
+
+ However, their training and equipment is very expensive. They consume 3 units of crop per hour, so you should consider very carefully if their military power will outweigh their high costs." );
+define( "troop_desc_27", "The Ram is a heavy support weapon for your infantry and cavalry. Its task is to destroy enemy walls and therefore increase your troops’ chances of overcoming the enemy's fortifications." );
+define( "troop_desc_28", "The Trebuchet is an excellent long-range weapon; it is used to destroy the fields and buildings of enemy villages. However, without escorting troops it is almost defenceless, so don't forget to send some of your troops with it. 
+
+ Having a high level rally point makes your catapults more accurate and gives you the option to target additional enemy buildings. With a level 10 rally point each building except for the cranny, stonemason's lodge and trapper can be targeted. 
+ HINT: Catapults CAN hit crannies, trappers or stonemason's lodges when they target randomly.
+
+ With a level 20 rally point two buildings can be targeted at the same time. You just need to attack with at least 20 catapults to be able to choose two targets." );
+define( "troop_desc_29", "Each tribe has an ancient and experienced fighter whose presence and speeches are able to convince the population of enemy villages to join his tribe.
+
+The more often the Chieftain speaks in front of the walls of an enemy village, the more its loyalty sinks until it joins the Chieftain's tribe." );
+define( "troop_desc_30", "Settlers are brave and daring citizens who move out of their village after a long training session to found a new village in your honour. 
+
+ As the journey and the founding of the new village are very difficult, three settlers are bound to stick together. For the new village, they need to bring a basis of 750 units per resource with them." );
 define( "troop_desc_51", "Ninja fighter is a type of wasp tribe infantry. Received training in many areas, and is useful in attack and defense but also in the best cases will not reach the strength of the specialized units distributed." );
 define( "troop_desc_52", "Infantry is the most powerful tribe of the wasp. Strong in the defense of modest in the attack, which is slower and more expensive than other units." );
 define( "troop_desc_53", "Fierce striker is the strongest striker in the Infantry Corps of the wasp tribe. Fast and strong he is panic in the heart of every defender. This force has a price, a training run and the taxpayer." );
